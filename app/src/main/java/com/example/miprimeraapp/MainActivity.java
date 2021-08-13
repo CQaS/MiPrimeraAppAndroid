@@ -19,11 +19,11 @@ public class MainActivity extends AppCompatActivity {
     private TextView res;
 
     //raiz
-    private EditText valNumARiaz;
+    private EditText valNumARaiz;
     private TextView resRaizCua;
     private RadioButton rbRaiz;
 
-    //exponente
+    //exponentes
     private CheckBox checExpo;
 
     //logaritmo
@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
         res = findViewById(R.id.respuesta);
 
         //raiz
-        valNumARiaz = findViewById(R.id.txt_num_raiz);
+        valNumARaiz = findViewById(R.id.txt_num_raiz);
         resRaizCua = findViewById(R.id.txt_resultado);
         rbRaiz = findViewById(R.id.rb_raiz);
 
@@ -89,7 +89,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void calcularLn(View view)
     {
-        Integer valor = Integer.parseInt(valNumARiaz.getText().toString());
+        Integer valor = Integer.parseInt(valNumARaiz.getText().toString());
         String seleccion = spinner.getSelectedItem().toString();
 
         if(seleccion.equals("logaritmo"))
@@ -130,7 +130,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void calcularRaiz(View view)
     {
-          Integer valor = Integer.parseInt(valNumARiaz.getText().toString());
+          Integer valor = Integer.parseInt(valNumARaiz.getText().toString());
 
           if(rbRaiz.isChecked() == true)
           {
