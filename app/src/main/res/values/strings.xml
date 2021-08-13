@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Calculadora</string>
+
+    <string name="btn_suma">suma</string>
+    <string name="btn_resta">resta</string>
+    <string name="btn_multi">multip</string>
+    <string name="btn_divide">divide</string>
+    
+    <string name="txt_hint_numero">escribe un numero</string>
+    <string name="txt_num_raiz">Numero a sacar Raiz o ln</string>
+    <string name="rb">Raiz Cuadrada</string>
+    <string name="cb">Exponente</string>
+    <string name="btnRiaz">CALCULAR RAIZ</string>
+    <string name="btnExpo">CALCULAR Exponente</string>
+    <string name="txt_res_raiz">Resultado raiz</string>
+
+    <string name="btn_log">ln</string>
+</resources>
